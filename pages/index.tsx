@@ -2,10 +2,11 @@ import { Blocks, useReactBuilder } from '@mbrain/react-builder'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import indexJson from './index.json';
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
-  const { showReactBuilder, hideReactBuilder, disableReactBuilder } = useReactBuilder();
+  const { enableReactBuilder, disableReactBuilder } = useReactBuilder();
 
   return (
     <div className={styles.container}>
@@ -17,22 +18,17 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to mBrain
         </h1>
 
         <p>
           <a
             style={{ cursor: 'pointer', fontSize: '20px' }}
             onClick={() => {
-              showReactBuilder({
-                config: {
-                  showBackButton: false,
-                  showEditButton: true,
-                }
-              });
+              enableReactBuilder();
             }}
           >
-            Show ReactBuilder
+            Enable ReactBuilder
           </a>
           <br /><br />
           <a
@@ -47,7 +43,7 @@ const Home: NextPage = () => {
 
         <Blocks
           name="Content"
-          data={[]}
+          data={indexJson}
         />
       </main>
 

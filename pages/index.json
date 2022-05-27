@@ -1,0 +1,18 @@
+[
+    {
+        "libraryId": "react-builder-ui",
+        "component": "Block1",
+        "props": {
+            "title": "Title 1 Override",
+            "body": "Lorem Ipsum 1"
+        }
+    },
+    {
+        "libraryId": "react-builder-ui",
+        "component": "Block3",
+        "props": {
+            "title": "Title 3",
+            "body": "Lorem Ipsum 3"
+        }
+    }
+]

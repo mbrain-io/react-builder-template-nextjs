@@ -10,9 +10,6 @@ function MyApp({ Component, pageProps }: AppProps) {
     <ReactBuilderProvider
       blockLibs={blockLibs}
       config={{
-        showBackButton: true,
-        showHideButton: true,
-        showEditButton: false,
         nextJsRouter: router,
       }}
     >
