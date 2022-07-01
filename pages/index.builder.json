@@ -1,0 +1,15 @@
+{
+    "page": {
+        "title": "Home"
+    },
+    "blocks": [
+        {
+            "libraryId": "react-builder-ui",
+            "component": "Block3",
+            "props": {
+                "title": "Lets crank this 🥷 🥷 🥷",
+                "body": "Like a pro!"
+            }
+        }
+    ]
+}

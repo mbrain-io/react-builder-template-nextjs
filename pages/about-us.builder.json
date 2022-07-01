@@ -1,0 +1,23 @@
+{
+    "page": {
+        "title": "About Us"
+    },
+    "blocks": [
+        {
+            "libraryId": "react-builder-ui",
+            "component": "Block2",
+            "props": {
+                "title": "😺 😺 😺",
+                "body": "I am cat"
+            }
+        },
+        {
+            "libraryId": "react-builder-ui",
+            "component": "Block1",
+            "props": {
+                "title": "🐶 🐶 🐶",
+                "body": "I am dog"
+            }
+        }
+    ]
+}
